@@ -1,0 +1,6 @@
+version: "2"
+services:
+ web_app:
+   ports:
+     - "3000:3000"
+   image: dmorgan3405/puppies:latest
